@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">toulim</string>
+    <string name="title_activity_main">toulim</string>
+    <string name="package_name">com.toulim.app</string>
+    <string name="custom_url_scheme">com.toulim.app</string>
+</resources>

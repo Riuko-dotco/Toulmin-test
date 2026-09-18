@@ -1,0 +1,46 @@
+.# Dependencias y paquetes
+node_modules/
+.pnpm-store/
+
+# Salidas de compilación Web (Vite)
+dist/
+www/
+
+# Archivos de depuración y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Entorno y variables secretas
+.env
+.env.local
+.env.*.local
+
+# IDEs y editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# Android: Archivos generados y caché de Gradle
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/.idea/
+android/*.iml
+android/app/*.iml
+android/local.properties
+android/
+
+# Android: CLAVES DE FIRMA Y KEYSTORES (¡CRÍTICO!)
+*.keystore
+*.jks
+*.pepk
+*.p12
+*.pem

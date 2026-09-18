@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "cli": "tsx src/cli/main.ts",
+    "validate": "tsx src/game/stories/mystery/story.validate.ts",
+    "validate:scene": "tsx src/game/stories/mystery/scene.validate.ts",
+    "test": "npm run validate && npm run validate:scene"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5.0.0",
+    "vite": "^8.3.0"
+  }
+}
